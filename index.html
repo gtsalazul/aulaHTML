@@ -1,11 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício HTML</title>
+    <title>Exercício GT05</title>
+    <style>
+        table, td, tr, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 2px;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Exercício Geração Tech</h1>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Listas</h2>
+            <div class="flex-container-start">
+                <div>
+                    <h5>ordenada</h5>
+                    <ol>
+                        <li>teste</li>
+                        <li>teste</li>
+                        <li>teste</li>
+                        <li>teste</li>
+                        <li>teste</li>
+                    </ol>
+                </div>
+                <div>
+                    <h5>não ordenada</h5>
+                    <ul>
+                        <li>teste</li>
+                        <li>teste</li>
+                        <li>teste</li>
+                        <li>teste</li>
+                        <li>teste</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Tabela</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome:</th>
+                        <th>Idade:</th>
+                        <th>Naturalidade:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Victor</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>Emily</td>
+                        <td colspan="2">21</td>
+                    </tr>
+                    <tr>
+                        <td>Diogo</td>
+                        <td>22</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Botões</h2>
+            <a href="https://www.google.com/" class="button">botão Estilizado</a>
+        </section>
+        <section>
+            <h2>Layout Flexbox</h2>
+            <div class="fle-container">
+                <div class="flex-item">Item 1</div>
+                <div class="flex-item">Item 2</div>
+                <div class="flex-item">Item 3</div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>Geração Tech - Segunda edição</p>
+    </footer>
 </body>
 </html>
