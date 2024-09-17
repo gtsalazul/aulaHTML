@@ -1,0 +1,90 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 1.6;
+   margin: 0;
+   padding: 0;
+   background-color: #f4f4f4;
+   color: #333;
+}
+
+header {
+   background-color: #333;
+   color: white;
+   padding: 0.5rem;
+   text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin-bottom: 1rem;
+}
+
+p {
+   margin-bottom: 1rem;
+}
+
+.container {
+   width: 80%;
+   margin: 2rem auto;
+   padding: 2rem;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+}
+
+.button {
+   display: inline-block;
+   padding: 0.5rem 1rem;
+   background-color: rebeccapurple;
+   color: white;
+   text-decoration: none;
+   border-radius: 10px;
+   transition-duration: 1s;
+}
+
+.button:hover {
+   background-color: #3f136b;
+}
+
+ol, ul {
+   margin-bottom: 1rem;
+}
+
+table {
+   width: 100%;
+}
+
+table, td, tr, th {
+   border: 1px solid black;
+   border-collapse: collapse;
+   padding: 2px;
+}
+
+th, td {
+   text-align: left;
+   padding: 0.5rem;
+}
+
+th {
+   background-color: #f4f4f4;
+}
+
+.flex-container {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 1rem;
+}
+
+.flex-container-start {
+   display: flex;
+   justify-content: space-around;
+}
+
+.flex-item {
+   background-color: #007BFF;
+   color: white;
+   padding: 1rem;
+   border-radius: 5px;
+   text-align: center;
+   flex: 1;
+   margin: 0.5rem;
+}
