@@ -74,9 +74,100 @@
                 <div class="flex-item">Item 3</div>
             </div>
         </section>
+        <section>
+            <h2>Form e inputs</h2>
+            <div class="card-body">
+                <h2>Formulário de login</h2>
+                <form class="form-input">
+                    <div class="form-group">
+                        <label for="nome">Name:</label>
+                        <input type="text" id="nome" placeholder="digite seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">e-mail:</label>
+                        <input type="email" id="email" placeholder="geracao@email.com" required>
+                    </div>
+                    <a class="button" type="submit">Enviar</a>
+                </form>
+                
+                <h2>Input radio</h2>
+                <form>
+                    <div class="form-group">
+                        <input name="radio" type="radio" id="opcao1" value="opcao1" checked>
+                        <label for="opcao1">Opção 01</label>    
+                    </div>
+                    <div class="form-group">
+                        <input name="radio" type="radio" id="opcao2" value="opcao2">
+                        <label for="opcao2">Opção 02</label>    
+                    </div>
+                    <div class="form-group">
+                        <input name="radio" type="radio" id="opcao3" value="opcao3">
+                        <label for="opcao3">Opção 03</label>    
+                    </div>
+                    <div class="form-group">
+                        <input name="radio" type="radio" id="opcao4" value="opcao4">
+                        <label for="opcao4">Opção 04</label>    
+                    </div>
+                </form>
+                
+                <h2>Input checkbox</h2>
+                <form>
+                    <div class="form-group">
+                        <input type="checkbox" id="opcao1" value="opcao1" checked>
+                        <label for="opcao1">Opção 01</label>    
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="opcao2" value="opcao2">
+                        <label for="opcao2">Opção 02</label>    
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="opcao3" value="opcao3">
+                        <label for="opcao3">Opção 03</label>    
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="opcao4" value="opcao4">
+                        <label for="opcao4">Opção 04</label>    
+                    </div>
+                </form>
+
+                <h2>Input color</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="color">Escolha uma cor:</label>
+                        <input type="color" name="" id="color" value="#FF0000">
+                    </div>
+                </form>
+
+                <h2>Input files</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="file">Escolha uma cor:</label>
+                        <input type="file" name="" id="file" accept=".pdf, .docx">
+                    </div>
+                </form>
+
+                <h2>Input de controle de faixa</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="range">Escolha uma cor:</label>
+                        <input 
+                            type="range" name="volume" id="range" 
+                            min="1" 
+                            max="100" 
+                            value="40">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section>
+            <picture>
+                <source srcset="https://images.pexels.com/photos/28297579/pexels-photo-28297579/free-photo-of-cidade-meio-urbano-arte-rua.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" media="(orientation: portrait)" />
+                <img src="https://images.pexels.com/photos/19558011/pexels-photo-19558011/free-photo-of-lampadas-arvores-tunel-parque.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" />
+              </picture>              
+        </section>
     </div>
     <footer>
-        <p>Geração Tech - Segunda edição</p>
+        <p>&copy; Geração Tech - Segunda edição</p>
     </footer>
 </body>
 </html>

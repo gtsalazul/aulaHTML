@@ -88,3 +88,18 @@ th {
    flex: 1;
    margin: 0.5rem;
 }
+
+.form-input {
+   background-color: #f4f4f4;
+   margin: 0;
+   padding: 2rem;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+footer {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+}
